@@ -1,6 +1,6 @@
 {
 	"name": "is-react-name",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "Checks whether strings match React naming conventions. 📛",
 	"repository": {
 		"type": "git",
