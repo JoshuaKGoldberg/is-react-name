@@ -75,7 +75,7 @@ importers:
         specifier: 17.6.0
         version: 17.6.0
       prettier:
-        specifier: ^3.9.6
+        specifier: 3.9.9
         version: 3.9.9
       prettier-plugin-curly:
         specifier: 0.4.1
