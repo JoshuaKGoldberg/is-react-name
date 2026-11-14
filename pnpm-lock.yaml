@@ -233,23 +233,23 @@ importers:
         specifier: 17.6.0
         version: 17.6.0
       prettier:
-        specifier: 3.9.9
-        version: 3.9.9
+        specifier: 3.10.0
+        version: 3.10.0
       prettier-plugin-curly:
         specifier: 0.4.1
-        version: 0.4.1(prettier@3.9.9)
+        version: 0.4.1(prettier@3.10.0)
       prettier-plugin-packagejson:
         specifier: 3.1.0
-        version: 3.1.0(prettier@3.9.9)
+        version: 3.1.0(prettier@3.10.0)
       prettier-plugin-padding-lines:
         specifier: 0.1.0
-        version: 0.1.0(prettier@3.9.9)
+        version: 0.1.0(prettier@3.10.0)
       prettier-plugin-sentences-per-line:
         specifier: 0.2.4
-        version: 0.2.4(prettier@3.9.9)
+        version: 0.2.4(prettier@3.10.0)
       prettier-plugin-sh:
         specifier: 0.20.0
-        version: 0.20.0(prettier@3.9.9)
+        version: 0.20.0(prettier@3.10.0)
       release-it:
         specifier: 21.1.0
         version: 21.1.0(@types/node@26.6.2)(magicast@0.5.5)
@@ -3447,8 +3447,8 @@ packages:
     peerDependencies:
       prettier: ^3.6.0
 
-  prettier@3.9.9:
-    resolution: {integrity: sha512-Z/CJHIkdujO/OtN7nXUii0Rf3VT5SRuhjBA82Xvu2XhBUgX3nhP67T0LHceBdQLex7OOFGTox+Q5Yg8Jk2Qivg==}
+  prettier@3.10.0:
+    resolution: {integrity: sha512-mBi4765LgjO1PFjlEs7pUeK0nb1bw71c+N4/ItfeUWNdY5cV2pRKaFpbbFRYmDJMO+5ZwzGxHRqHxFZna7iv5w==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -5139,10 +5139,10 @@ snapshots:
 
   '@pkgr/core@0.3.6': {}
 
-  '@prettier/sync@0.6.1(prettier@3.9.9)':
+  '@prettier/sync@0.6.1(prettier@3.10.0)':
     dependencies:
       make-synchronized: 0.8.0
-      prettier: 3.9.9
+      prettier: 3.10.0
 
   '@quansync/fs@1.1.0':
     dependencies:
@@ -5780,7 +5780,7 @@ snapshots:
 
   create-typescript-app@2.67.2(bingo-systems@0.7.0)(typescript@5.9.3):
     dependencies:
-      '@prettier/sync': 0.6.1(prettier@3.9.9)
+      '@prettier/sync': 0.6.1(prettier@3.10.0)
       '@typescript-eslint/typescript-estree': 8.72.0(typescript@5.9.3)
       bingo: 0.13.2
       bingo-fs: 0.6.0
@@ -5804,7 +5804,7 @@ snapshots:
       object-strings-deep: 0.1.2
       parse-author: 2.0.0
       parse-package-name: 1.0.0
-      prettier: 3.9.9
+      prettier: 3.10.0
       remove-dependencies: 0.1.1
       remove-undefined-objects: 9.0.2
       semver: 7.8.5
@@ -7589,32 +7589,32 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-plugin-curly@0.4.1(prettier@3.9.9):
+  prettier-plugin-curly@0.4.1(prettier@3.10.0):
     dependencies:
-      prettier: 3.9.9
+      prettier: 3.10.0
 
-  prettier-plugin-packagejson@3.1.0(prettier@3.9.9):
+  prettier-plugin-packagejson@3.1.0(prettier@3.10.0):
     dependencies:
       sort-package-json: 4.1.0
     optionalDependencies:
-      prettier: 3.9.9
+      prettier: 3.10.0
 
-  prettier-plugin-padding-lines@0.1.0(prettier@3.9.9):
+  prettier-plugin-padding-lines@0.1.0(prettier@3.10.0):
     dependencies:
-      prettier: 3.9.9
+      prettier: 3.10.0
 
-  prettier-plugin-sentences-per-line@0.2.4(prettier@3.9.9):
+  prettier-plugin-sentences-per-line@0.2.4(prettier@3.10.0):
     dependencies:
-      prettier: 3.9.9
+      prettier: 3.10.0
       sentences-per-line: 0.5.6
 
-  prettier-plugin-sh@0.20.0(prettier@3.9.9):
+  prettier-plugin-sh@0.20.0(prettier@3.10.0):
     dependencies:
       '@reteps/dockerfmt': 0.5.4
-      prettier: 3.9.9
+      prettier: 3.10.0
       sh-syntax: 0.7.0
 
-  prettier@3.9.9: {}
+  prettier@3.10.0: {}
 
   pretty-ms@9.3.1:
     dependencies:
